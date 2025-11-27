@@ -34,6 +34,7 @@ li {
     transition: 0.5s;
 }
 
+
 li.done {
     text-decoration: line-through;
     opacity: 0.6;
