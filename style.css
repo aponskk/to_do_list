@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.container {
+    width: 350px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.inputs-box {
+    display: flex;
+    gap: 10px;
+}
+
+#TaskList {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    padding: 8px 10px;
+    background: #eee;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+li.done {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+li:hover {
+    background: #ddd;
+    transform: translateX(3px);
+    transition: 0.5s;
+}
+
+#AddButton {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#AddButton:hover {
+    background: #45a049;
+    transform: scale(1.10);
+    transition: 1s;
+}
+
+input {
+    border-radius: 8px;
+}
+
+.dark {
+    background: #1e1e1e;
+    color: white;
+}
+
+.dark .container {
+    background: #2a2a2a;
+}
+
+#themetoogle {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.head {
+    display: flex;
+    gap: 10px;
+}
+
+.head button {
+    margin-top: 20px;
+    height: 45px;
+    margin-left: 23px;
+}
+
+li.delete {
+    cursor: pointer;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+#clearCompleted {
+    background: #acb4ac;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#clearCompleted:hover {
+    background: #888d88;
+    transform: scale(1.10);
+    transition: 1s;
+}
