@@ -69,6 +69,10 @@ input {
     color: white;
 }
 
+.dark li {
+    color: black;
+}
+
 .dark .container {
     background: #2a2a2a;
 }
